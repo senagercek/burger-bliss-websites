@@ -10,12 +10,12 @@ import menuBurger5 from '@/assets/menu-burger-5.jpg';
 import menuBurger6 from '@/assets/menu-burger-6.jpg';
 
 const menuItems = [
-  { name: 'Classic Smash', price: '₺189', desc: 'Angus eti, cheddar, karamelize soğan, özel sos', badge: 'Bestseller', img: menuBurger1 },
-  { name: 'Truffle Burger', price: '₺249', desc: 'Wagyu eti, trüf peyniri, roka, trüf mayo', badge: "Chef's Pick", img: menuBurger2 },
+  { name: 'Classic Smash', price: '₺189', desc: 'Angus eti, cheddar, karamelize soğan, özel sos', badge: 'Çok Satan', img: menuBurger1 },
+  { name: 'Truffle Burger', price: '₺249', desc: 'Wagyu eti, trüf peyniri, roka, trüf mayo', badge: 'Şefin Seçimi', img: menuBurger2 },
   { name: 'BBQ Monster', price: '₺219', desc: 'Çift kat et, bacon, BBQ sos, çıtır soğan halkası', badge: null, img: menuBurger3 },
   { name: 'Spicy Inferno', price: '₺209', desc: 'Habanero sos, jalapeño, pepper jack peynir', badge: 'Hot 🔥', img: menuBurger4 },
   { name: 'Mushroom Swiss', price: '₺199', desc: 'Sote mantar, İsviçre peyniri, sarımsak aioli', badge: null, img: menuBurger5 },
-  { name: 'Veggie Deluxe', price: '₺169', desc: 'Plant-based patty, avokado, taze sebzeler', badge: 'Vegan', img: menuBurger6 },
+  { name: 'Veggie Deluxe', price: '₺169', desc: 'Bitki bazlı köfte, avokado, taze sebzeler', badge: 'Vegan', img: menuBurger6 },
 ];
 
 const MenuSection = () => {
@@ -31,11 +31,11 @@ const MenuSection = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16 md:mb-24"
         >
-          <p className="text-primary/80 tracking-[0.4em] uppercase text-xs mb-4">Our Menu</p>
+          <p className="text-primary/80 tracking-[0.4em] uppercase text-xs mb-4">Menümüz</p>
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-black tracking-tight">
-            Signature
+            Özel
             <br />
-            <span className="text-primary">Collection</span>
+            <span className="text-primary">Lezzetler</span>
           </h2>
         </motion.div>
 

@@ -18,9 +18,9 @@ const TextImpactSection = () => {
 
       <motion.div style={{ scale, opacity }} className="text-center px-4">
         <h2 className="text-5xl md:text-7xl lg:text-[100px] font-black tracking-tight leading-[0.9]">
-          Crafted For
+          Tutku İçin
           <br />
-          <span className="text-primary">Obsession.</span>
+          <span className="text-primary">Hazırlandı.</span>
         </h2>
       </motion.div>
     </section>

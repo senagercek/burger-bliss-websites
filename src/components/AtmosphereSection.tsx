@@ -27,11 +27,11 @@ const AtmosphereSection = () => {
         transition={{ duration: 1 }}
         className="relative z-10 text-center px-4"
       >
-        <p className="text-primary/80 tracking-[0.4em] uppercase text-xs mb-6">The Atmosphere</p>
+        <p className="text-primary/80 tracking-[0.4em] uppercase text-xs mb-6">Atmosfer</p>
         <h2 className="text-4xl md:text-6xl lg:text-8xl font-black tracking-tight leading-[0.9] mb-6">
-          Experience
+          Lezzeti
           <br />
-          <span className="text-primary">The Flavor Live</span>
+          <span className="text-primary">Canlı Yaşayın</span>
         </h2>
         <p className="text-muted-foreground text-base md:text-lg max-w-lg mx-auto">
           Ateşin sıcaklığı, etin cızırtısı ve unutulmaz bir atmosfer sizi bekliyor.
