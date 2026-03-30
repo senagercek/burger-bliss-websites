@@ -12,15 +12,15 @@ const TextImpactSection = () => {
   const opacity = useTransform(scrollYProgress, [0.15, 0.4, 0.7, 0.85], [0, 1, 1, 0]);
 
   return (
-    <section ref={ref} className="h-screen flex items-center justify-center relative overflow-hidden">
+    <section ref={ref} className="min-h-[65vh] py-16 md:py-24 flex items-center justify-center relative overflow-hidden">
       {/* Grain-like radial */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_hsl(24_100%_50%_/_0.04),_transparent_70%)]" />
 
       <motion.div style={{ scale, opacity }} className="text-center px-4">
         <h2 className="text-5xl md:text-7xl lg:text-[100px] font-black tracking-tight leading-[0.9]">
-          Crafted For
+          Tutku İçin
           <br />
-          <span className="text-primary">Obsession.</span>
+          <span className="text-primary">Hazırlandı.</span>
         </h2>
       </motion.div>
     </section>

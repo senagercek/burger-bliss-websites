@@ -11,7 +11,7 @@ const Footer = () => (
       >
         <div>
           <h3 className="text-2xl font-bold">Urban<span className="text-primary">Burger</span></h3>
-          <p className="text-muted-foreground text-sm mt-1">Taste Beyond Reality</p>
+          <p className="text-muted-foreground text-sm mt-1">Lezzetin Gerçeküstü Hali</p>
         </div>
         <div className="flex gap-8 text-sm text-muted-foreground">
           <a href="#menu" className="hover:text-primary transition-colors">Menü</a>

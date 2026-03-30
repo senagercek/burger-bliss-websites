@@ -19,7 +19,7 @@ const ReservationSection = () => {
   };
 
   return (
-    <section id="reservation" className="py-20 md:py-32 px-4 relative">
+    <section id="reservation" className="py-14 md:py-24 px-4 relative">
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
 
       <div className="max-w-6xl mx-auto">
@@ -30,11 +30,11 @@ const ReservationSection = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <p className="text-primary/80 tracking-[0.4em] uppercase text-xs mb-4">Reservation</p>
+          <p className="text-primary/80 tracking-[0.4em] uppercase text-xs mb-4">Rezervasyon</p>
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-black tracking-tight mb-4">
-            Reserve Your
+            Masanızı
             <br />
-            <span className="text-primary">Table</span>
+            <span className="text-primary">Ayırtın</span>
           </h2>
         </motion.div>
 
@@ -64,7 +64,7 @@ const ReservationSection = () => {
             </Button>
             <Button type="button" size="lg" variant="outline" className="w-full rounded-xl h-14 text-lg border-primary/30 hover:bg-primary/10 gap-2"
               onClick={() => window.open('https://wa.me/905551234567?text=Sipariş vermek istiyorum', '_blank')}>
-              Order Now
+              Hemen Sipariş Ver
             </Button>
           </motion.form>
 
