@@ -1,21 +1,23 @@
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
-import ScrollAnimationSection from '@/components/ScrollAnimationSection';
+import IngredientSection from '@/components/IngredientSection';
+import TextImpactSection from '@/components/TextImpactSection';
 import MenuSection from '@/components/MenuSection';
-import StorySection from '@/components/StorySection';
+import SocialProofSection from '@/components/SocialProofSection';
+import AtmosphereSection from '@/components/AtmosphereSection';
 import ReservationSection from '@/components/ReservationSection';
 import Footer from '@/components/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+    <div className="min-h-screen bg-background text-foreground overflow-x-hidden grain">
       <Navbar />
       <HeroSection />
-      <ScrollAnimationSection />
+      <IngredientSection />
+      <TextImpactSection />
       <MenuSection />
-      <div id="story">
-        <StorySection />
-      </div>
+      <SocialProofSection />
+      <AtmosphereSection />
       <ReservationSection />
       <Footer />
     </div>
