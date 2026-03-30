@@ -10,7 +10,7 @@ const AtmosphereSection = () => {
   const bgY = useTransform(scrollYProgress, [0, 1], ['0%', '20%']);
 
   return (
-    <section ref={ref} className="relative h-[70vh] md:h-screen flex items-center justify-center overflow-hidden">
+    <section ref={ref} className="relative h-[60vh] md:h-[75vh] flex items-center justify-center overflow-hidden">
       {/* Parallax bg */}
       <motion.div style={{ y: bgY }} className="absolute inset-0 -top-20 -bottom-20">
         <div className="absolute inset-0 bg-gradient-to-b from-primary/10 via-primary/5 to-background" />

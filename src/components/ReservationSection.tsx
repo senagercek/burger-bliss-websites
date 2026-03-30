@@ -19,7 +19,7 @@ const ReservationSection = () => {
   };
 
   return (
-    <section id="reservation" className="py-20 md:py-32 px-4 relative">
+    <section id="reservation" className="py-14 md:py-24 px-4 relative">
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
 
       <div className="max-w-6xl mx-auto">

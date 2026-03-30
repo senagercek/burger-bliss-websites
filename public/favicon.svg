@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="UrbanBurger favicon">
+  <defs>
+    <linearGradient id="burgerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff8a00" />
+      <stop offset="100%" stop-color="#ff5e00" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#111111" />
+  <path d="M14 24c1-7 8-12 18-12s17 5 18 12H14z" fill="url(#burgerGradient)" />
+  <rect x="12" y="28" width="40" height="6" rx="3" fill="#f6b26b" />
+  <rect x="12" y="36" width="40" height="8" rx="4" fill="#7a3f12" />
+  <path d="M14 47h36c-2 4-6 6-10 6H24c-4 0-8-2-10-6z" fill="url(#burgerGradient)" />
+</svg>

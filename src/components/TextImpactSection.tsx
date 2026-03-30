@@ -12,7 +12,7 @@ const TextImpactSection = () => {
   const opacity = useTransform(scrollYProgress, [0.15, 0.4, 0.7, 0.85], [0, 1, 1, 0]);
 
   return (
-    <section ref={ref} className="h-screen flex items-center justify-center relative overflow-hidden">
+    <section ref={ref} className="min-h-[65vh] py-16 md:py-24 flex items-center justify-center relative overflow-hidden">
       {/* Grain-like radial */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_hsl(24_100%_50%_/_0.04),_transparent_70%)]" />
 

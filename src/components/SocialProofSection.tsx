@@ -10,7 +10,7 @@ const reviews = [
 
 const SocialProofSection = () => {
   return (
-    <section className="py-20 md:py-32 px-4 relative overflow-hidden">
+    <section className="py-14 md:py-24 px-4 relative overflow-hidden">
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
 
       <motion.div

@@ -20,7 +20,7 @@ const IngredientSection = () => {
   });
 
   return (
-    <section ref={containerRef} className="py-20 md:py-40 px-4 relative overflow-hidden">
+    <section ref={containerRef} className="py-14 md:py-24 px-4 relative overflow-hidden">
       {/* Ambient glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[150px]" />
 
