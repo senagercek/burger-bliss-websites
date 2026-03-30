@@ -17,7 +17,7 @@ const HeroSection = () => {
   const textY = useTransform(scrollYProgress, [0, 0.3], [0, -60]);
 
   return (
-    <section ref={ref} className="relative h-[200vh]">
+    <section ref={ref} className="relative h-[160vh]">
       <div className="sticky top-0 h-screen flex items-center justify-center overflow-hidden">
         {/* Ambient glow */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/8 rounded-full blur-[200px]" />
@@ -29,7 +29,7 @@ const HeroSection = () => {
         >
           <motion.img
             src={heroBurger}
-            alt="Premium Burger"
+            alt="Premium Burger Görseli"
             width={500}
             height={500}
             className="w-[300px] md:w-[450px] lg:w-[500px] drop-shadow-[0_20px_60px_rgba(255,107,0,0.3)]"
@@ -50,7 +50,7 @@ const HeroSection = () => {
             transition={{ delay: 0.8, duration: 0.8 }}
             className="text-primary/80 tracking-[0.4em] uppercase text-xs md:text-sm mb-8 font-medium"
           >
-            Premium Burger Experience
+            Premium Burger Deneyimi
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 40 }}
@@ -58,9 +58,9 @@ const HeroSection = () => {
             transition={{ delay: 1, duration: 1, ease: [0.16, 1, 0.3, 1] }}
             className="text-5xl md:text-7xl lg:text-[120px] font-black leading-[0.85] mb-8 tracking-tight"
           >
-            Not Just
+            Sadece Bir
             <br />
-            <span className="text-primary">a Burger.</span>
+            <span className="text-primary">Burger Değil.</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
@@ -68,7 +68,7 @@ const HeroSection = () => {
             transition={{ delay: 1.4, duration: 0.8 }}
             className="text-muted-foreground text-base md:text-lg max-w-md mx-auto mb-10"
           >
-            Scroll to experience
+            Deneyimlemek için kaydırın
           </motion.p>
         </motion.div>
 

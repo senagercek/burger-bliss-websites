@@ -6,10 +6,10 @@ import ingredientCheese from '@/assets/ingredient-cheese.png';
 import ingredientLettuce from '@/assets/ingredient-lettuce.png';
 
 const ingredients = [
-  { img: ingredientBun, name: 'Daily Bread', desc: 'Günlük taze brioche', offsetY: -120 },
-  { img: ingredientCheese, name: 'Melted Gold', desc: '18 ay dinlendirilmiş cheddar', offsetY: -40 },
-  { img: ingredientPatty, name: 'Fresh Meat', desc: 'Premium Angus eti', offsetY: 40 },
-  { img: ingredientLettuce, name: 'Garden Fresh', desc: 'Organik yeşillikler', offsetY: 120 },
+  { img: ingredientBun, name: 'Günlük Ekmek', desc: 'Günlük taze brioche', offsetY: -120 },
+  { img: ingredientCheese, name: 'Eriyen Lezzet', desc: '18 ay dinlendirilmiş cheddar', offsetY: -40 },
+  { img: ingredientPatty, name: 'Taze Et', desc: 'Premium Angus eti', offsetY: 40 },
+  { img: ingredientLettuce, name: 'Bahçeden Taze', desc: 'Organik yeşillikler', offsetY: 120 },
 ];
 
 const IngredientSection = () => {
@@ -20,7 +20,7 @@ const IngredientSection = () => {
   });
 
   return (
-    <section ref={containerRef} className="py-20 md:py-40 px-4 relative overflow-hidden">
+    <section ref={containerRef} className="py-14 md:py-24 px-4 relative overflow-hidden">
       {/* Ambient glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[150px]" />
 
@@ -31,11 +31,11 @@ const IngredientSection = () => {
         transition={{ duration: 0.8 }}
         className="text-center mb-16 md:mb-24 relative z-10"
       >
-        <p className="text-primary/80 tracking-[0.4em] uppercase text-xs mb-4">Ingredients</p>
+        <p className="text-primary/80 tracking-[0.4em] uppercase text-xs mb-4">İçerikler</p>
         <h2 className="text-4xl md:text-6xl lg:text-7xl font-black tracking-tight">
-          Every Layer,
+          Her Katman,
           <br />
-          <span className="text-primary">A Masterpiece</span>
+          <span className="text-primary">Bir Şaheser</span>
         </h2>
       </motion.div>
 

@@ -4,13 +4,13 @@ import { Star } from 'lucide-react';
 const reviews = [
   { name: 'Elif K.', text: '"İstanbul\'un en iyi burgeri, tartışmasız!"', rating: 5 },
   { name: 'Ahmet B.', text: '"Premium deneyim, her kuruşuna değer."', rating: 5 },
-  { name: 'Sarah M.', text: '"Best burger I\'ve ever had in Turkey!"', rating: 5 },
+  { name: 'Sarah M.', text: '"Türkiye\'de yediğim en iyi burger!"', rating: 5 },
   { name: 'Mert Y.', text: '"Truffle Burger hayatımı değiştirdi 🔥"', rating: 5 },
 ];
 
 const SocialProofSection = () => {
   return (
-    <section className="py-20 md:py-32 px-4 relative overflow-hidden">
+    <section className="py-14 md:py-24 px-4 relative overflow-hidden">
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
 
       <motion.div
@@ -20,9 +20,9 @@ const SocialProofSection = () => {
         transition={{ duration: 0.8 }}
         className="text-center mb-16"
       >
-        <p className="text-primary/80 tracking-[0.4em] uppercase text-xs mb-4">Reviews</p>
+        <p className="text-primary/80 tracking-[0.4em] uppercase text-xs mb-4">Yorumlar</p>
         <h2 className="text-4xl md:text-6xl font-black tracking-tight">
-          What They<br /><span className="text-primary">Say</span>
+          Misafirlerimiz<br /><span className="text-primary">Ne Diyor?</span>
         </h2>
       </motion.div>
 
